@@ -62,7 +62,7 @@ $(window).load(function(){
   section1DivResize();
 
   $(".heartBackground").animate({
-    height: "115",
+    height: "150",
     width: "150",
     opacity: 1
   },'5000','linear');
@@ -84,7 +84,7 @@ $(window).scroll(function() {
 
 function section1DivResize() {
   //console.log($(window).width());
-  var heights = $(window).width()/2.1 ; 
+  var heights = $(window).width()/1.5 ; 
   //console.log(heights);
     $(".rr_staticParallax1").css({"height": heights }) ;
     $(".rr_staticParallax2").css({"height": heights }) ;
@@ -117,7 +117,7 @@ showSlides(slideIndex);
 var interval = setInterval(function(){ 
   slideIndex++;
   showSlides(slideIndex);
-}, 7000);  // Change image every 7 seconds
+}, 5000);  // Change image every 7 seconds
 
 function plusSlides(n) {
   showSlides(slideIndex += n);

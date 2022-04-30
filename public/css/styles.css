@@ -5,13 +5,10 @@
   background-size: 100%;
 }
 .rr_staticParallax1{
-    background-image: url(../img/selfPic/headerImage.jpg);
+    background-image: url(../img/selfPic/headerImage.jpeg);
 }
 .rr_staticParallax2{
     /*background-image: url(../img/rr_starBackground.jpg);*/
-}
-html {
-    scroll-behavior: smooth;
 }
 #rr_navigation{
     left: 0px;
@@ -163,21 +160,6 @@ html {
     padding-left: 0;
     border-bottom: 2px solid #000000;
 }
-.rr_mobileMenuEleLast{
-    padding: 0.7rem;
-    padding-left: 0;
-}
-.rr_mobileMenuEleLast>a{
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #1141f2;
-    font-size: 16px;
-    font-style: italic;
-    padding: 0 0.7rem;
-    letter-spacing: 1px;
-    font-family: 'Frijole', cursive;
-    /*text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);*/
-}
 .rr_mobileMenuEle>a{
     text-transform: uppercase;
     text-decoration: none;
@@ -210,8 +192,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  /* max-width: 1000px; */
-  max-height: fit-content;
+  /*max-width: 1000px;*/
   position: relative;
   margin: auto;
 }
@@ -315,7 +296,7 @@ img {vertical-align: middle;}
     width: 0%;
 	white-space: nowrap;
     z-index: 999;
-	transition: width 300ms;
+	transition: width 2s;
 	/*-webkit-transition: all 1s ease;*/
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -562,7 +543,7 @@ img {vertical-align: middle;}
 }
 .rr_glimpseHeading{
 	margin: 0;
-    font-size: 10vw;
+    font-size: 20px;
     text-align: center;
     font-family: 'Frijole', cursive;
 }
@@ -720,17 +701,11 @@ img {vertical-align: middle;}
 }
 .rr_wnWrTxtHeading{
     margin: 0;
-    font-size: 40px;
+    font-size: 27px;
     text-align: center;
     line-height: normal;
-    letter-spacing: normal;
+    letter-spacing: normal;    
 	font-family: 'Frijole', cursive;
-}
-.rr_locTxtContainer{
-    /*color: #01B1AF;*/
-    /* padding-top: 20px; */
-    font-size: 5vw;
-    pointer-events: none;
 }
 .eventWrapper{
     width: fit-content;
@@ -798,11 +773,11 @@ img {vertical-align: middle;}
 }
 .heartBackground{
     display: block;
-    margin: 0 0 0 50%;
+    margin: 0px;
     height:20px;
     opacity: 0;
-	/* margin: auto; */
     width:20px;
+	margin: 0 0 0 45%;
     transform: translateZ(10px);
     background: url(../img/heartBackground.png) center center/100% no-repeat local;
 }
